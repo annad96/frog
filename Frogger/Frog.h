@@ -11,7 +11,7 @@ class Frog
 public:
     Frog();
     void draw();
-   // void move_frog(char get_key());
+    // void move_frog(char get_key());
 
 private:
     enum class MoveDirection
