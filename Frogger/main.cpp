@@ -18,5 +18,6 @@ int main()
 	Terminal term(41, 20);
 	Frog frog(term);
 	frog.draw(term);
-	//return 0;
+  term.get_key();
+	return 0;
 }
