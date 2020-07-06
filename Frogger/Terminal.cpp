@@ -31,7 +31,7 @@ int Terminal::height() const
 	return LINES;
 }
 
-void Terminal::set_cell(int x, int y, const char symbol)
+void Terminal::set_cell(int x, int y, char symbol)
 {
 	mvaddch(y, x, symbol);
 }
