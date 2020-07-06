@@ -14,7 +14,7 @@ void Frog::draw(Terminal& term) {
     term.set_cell(_position[0].x, _position[0].y - 1, '-0-');
     term.set_cell(_position[0].x, _position[0].y, '^ ^');
 }
-}
+
 /*
 void Frog::move_frog(char get_key)
 {
