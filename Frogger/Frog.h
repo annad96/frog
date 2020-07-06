@@ -1,6 +1,6 @@
 #ifndef FROG_H
 #define FROG_H
-
+#include <vector>
 #include "Vec2D.h"
 
 class Terminal;
@@ -22,7 +22,7 @@ private:
     };
 
     MoveDirection _dir;
-    Vec2D _position;
+    std::vector<Vec2D> _position;
 };
 
 #endif

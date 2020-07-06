@@ -1,6 +1,7 @@
 #include "Car.h"
 #include "Terminal.h"
 
+
 Car::Car() :
 	_dir(MoveDirection::RIGHT), _dir(MoveDirection::LEFT)
 {

@@ -1,4 +1,4 @@
-//#include <chrono>
+#include <chrono>
 #include <vector>
 #include <cstdlib>
 //#include <ctime>
@@ -6,6 +6,7 @@
 #include <curses.h>
 #include "Terminal.h"
 #include "Frog.h"
+#include "Car.h"
 
 
 int main()
