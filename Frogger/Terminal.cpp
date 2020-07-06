@@ -1,5 +1,5 @@
 #include "Terminal.h"
-#include <string.h>
+#include <string>
 
 #if defined(_WIN32)
 #include <curses.h>

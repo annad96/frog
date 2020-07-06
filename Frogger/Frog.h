@@ -2,7 +2,7 @@
 #define FROG_H
 #include <vector>
 #include "Vec2D.h"
-#include <string.h>
+#include <string>
 #include <iostream>
 
 class Terminal;

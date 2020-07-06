@@ -1,6 +1,6 @@
 #include "Car.h"
 #include "Terminal.h"
-#include <string.h>
+#include <string>
 
 
 Car::Car() :
