@@ -3,8 +3,8 @@
 #include <string>
 
 
-Car::Car() :
-	_dir(MoveDirection::RIGHT), _dir(MoveDirection::LEFT)
+Car::Car() 
+	//_dir(MoveDirection::RIGHT); _dir(MoveDirection::LEFT);
 {
 	_pos = {{0,0}}
 }
