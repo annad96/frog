@@ -6,7 +6,7 @@
 Car::Car() 
 	//_dir(MoveDirection::RIGHT); _dir(MoveDirection::LEFT);
 {
-	_pos = {{0,0}}
+	_pos = { {0,0} };
 }
 
 void Car::draw(Terminal& term) {
