@@ -13,7 +13,8 @@ Frog::Frog(Terminal& term) :
 
 void Frog::draw(Terminal& term) {
 
-    term.set_cell(_position[0].x - 1, _position[0].y - 2, ' ');
+    term.set_cell(5, 6, 'o');
+    /*term.set_cell(_position[0].x - 1, _position[0].y - 2, ' ');
     term.set_cell(_position[0].x, _position[0].y - 2, 'o');
     term.set_cell(_position[0].x + 1, _position[0].y - 2, ' ');
     term.set_cell(_position[0].x - 1, _position[0].y - 1, '-');
@@ -21,7 +22,7 @@ void Frog::draw(Terminal& term) {
     term.set_cell(_position[0].x + 1, _position[0].y - 1, '-');
     term.set_cell(_position[0].x - 1, _position[0].y, '^');
     term.set_cell(_position[0].x, _position[0].y, ' ');
-    term.set_cell(_position[0].x + 1, _position[0].y, '^');
+    term.set_cell(_position[0].x + 1, _position[0].y, '^');*/
 }
 
 /*
