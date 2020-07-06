@@ -4,9 +4,13 @@
 //#include <ctime>
 #include <iostream>
 #include <curses.h>
+#include <iostream>
 #include "Terminal.h"
 #include "Frog.h"
 #include "Car.h"
+
+#include <stdio.h>
+#include <string>
 
 
 int main()

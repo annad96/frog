@@ -1,5 +1,8 @@
 #include "Frog.h"
 #include "Terminal.h"
+#include <stdio.h>
+#include <string>
+#include <iostream>
 
 
 Frog::Frog(Terminal& term) :
