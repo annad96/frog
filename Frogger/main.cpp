@@ -4,12 +4,10 @@
 //#include <ctime>
 #include <iostream>
 #include <curses.h>
-#include <chrono>
 #include <iostream>
 #include "Terminal.h"
 #include "Frog.h"
 #include "Car.h"
-#include "Game.h"
 
 #include <stdio.h>
 #include <string>
