@@ -9,7 +9,7 @@ class Vec2D;
 class Car
 {
 public:
-    Car();
+    Car(Terminal& term);
     void draw(Terminal& term);
     // void move_car(char get_key());
 

@@ -1,9 +1,10 @@
 #include "Car.h"
 #include "Terminal.h"
 #include <string>
+#include <random>
 
 
-Car::Car() 
+Car::Car(Terminal& term)
 	//_dir(MoveDirection::RIGHT); _dir(MoveDirection::LEFT);
 {
 	_pos = { {0,0} };
