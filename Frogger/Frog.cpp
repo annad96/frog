@@ -1,7 +1,7 @@
 #include "Frog.h"
 #include "Terminal.h"
 #include <stdio.h>
-#include <string>
+#include <string.h>
 #include <iostream>
 
 
