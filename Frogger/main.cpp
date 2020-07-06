@@ -15,7 +15,7 @@
 
 int main()
 {
-	Terminal term(40, 20);
+	Terminal term(41, 20);
 	Frog frog(term);
 	frog.draw(term);
 	//return 0;

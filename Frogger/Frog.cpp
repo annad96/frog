@@ -7,7 +7,7 @@
 
 Frog::Frog(Terminal& term)
 {
-    _position = { {term.width() / 2,term.height()} };
+    _position = { {21,20} };
 }
 
 void Frog::draw(Terminal& term) {

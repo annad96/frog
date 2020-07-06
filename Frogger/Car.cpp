@@ -14,16 +14,25 @@ void Car::draw(Terminal& term) {
 	//if (_dir == RIGHT) {
 	//for (int i = 0; i < car.size(); i++)
 	//{	//car right
-/*	term.set_cell(right_car[0].x, right_car[0].y, "- -");
-	term.set_cell(right_car[0].x, right_car[0].y, "0H>");
-	term.set_cell(right_car[0].x, right_car[0].y, "- -");
+	term.set_cell(_pos[0].x - 1, _pos[0].y, "-");
+	term.set_cell(_pos[0].x, _pos[0].y, " ");
+	term.set_cell(_pos[0].x + 1, _pos[0].y, "-");
+	if (MoveDirection _dir == RIGHT) {
+		term.set_cell(_pos[0].x - 1, _pos[0].y, "0");
+		term.set_cell(_pos[0].x, _pos[0].y, "H");
+		term.set_cell(_pos[0].x + 1, _pos[0].y, ">");
+	}
+	if (MoveDirection _dir == LEFT) {
+		term.set_cell(left_car[0].x - 1, left_car[0].y, "<");
+		term.set_cell(left_car[0].x, left_car[0].y, "H");
+		term.set_cell(left_car[0].x + 1, left_car[0].y, "0");
+	}
+	term.set_cell(_pos[0].x - 1, _pos[0].y, "-");
+	term.set_cell(_pos[0].x, _pos[0].y, " ");
+	term.set_cell(_pos[0].x + 1, _pos[0].y, "-");
 
-	//car left
-
-	term.set_cell(left_car[0].x, left_car[0].y, "- -");
-	term.set_cell(left_car[0].x, left_car[0].y, "<H0");
-	term.set_cell(left_car[0].x, left_car[0].y, "- -");
-	//}*/
+	
+	}
 }
 /*
 void Car::move_car(std::vector<Vec2D>& car, Direction dir) {
