@@ -8,7 +8,7 @@
 Frog::Frog(Terminal& term) :
     _dir(MoveDirection::UP)
 {
-    _position = { {term.width() / 2,term.height()} }
+    _position = { {term.width() / 2,term.height()} };
 }
 
 void Frog::draw(Terminal& term) {

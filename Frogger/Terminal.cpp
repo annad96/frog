@@ -1,4 +1,5 @@
 #include "Terminal.h"
+#include <string.h>
 
 #if defined(_WIN32)
 #include <curses.h>
@@ -30,7 +31,7 @@ int Terminal::height() const
 	return LINES;
 }
 
-void Terminal::set_cell(int x, int y, char symbol)
+void Terminal::set_cell(int x, int y, const char symbol)
 {
 	mvaddch(y, x, symbol);
 }
