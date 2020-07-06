@@ -5,8 +5,7 @@
 #include <iostream>
 
 
-Frog::Frog(Terminal& term) :
-    _dir(MoveDirection::UP)
+Frog::Frog(Terminal& term)
 {
     _position = { {term.width() / 2,term.height()} };
 }
