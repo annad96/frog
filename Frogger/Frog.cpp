@@ -41,4 +41,3 @@ void Frog::move_frog(char get_key)
         break;
     }
 }*/
-© 2020 GitHub, Inc.
