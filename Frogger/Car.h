@@ -1,28 +1,27 @@
-#ifndef FROG_H
-#define FROG_H
+#ifndef CAR_H
+#define CAR_H
 
 #include "Vec2D.h"
 
 class Terminal;
 class Vec2D;
 
-class Frog
+class Car
 {
 public:
-    Frog(Terminal& term);
+    Car();
     void draw(Terminal& term);
-    // void move_frog(char get_key());
+    // void move_car(char get_key());
 
 private:
     enum class MoveDirection
     {
         LEFT,
-        RIGHT,
-        UP
+        RIGHT
     };
 
     MoveDirection _dir;
-    Vec2D _position;
+    Vec2D _pos;
 };
 
 #endif
