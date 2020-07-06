@@ -8,8 +8,8 @@ CFLAGS = -g -Wall -std=c++11
 default: $(TARGET)
 all: default
 
-SOURCES = Frogger/main.cpp Frogger/Terminal.cpp
-HEADERS = Frogger/Terminal.h Frogger/Vec2D.h
+SOURCES = $(wildcard *.cpp) $(wildcard */*.cpp)
+HEADERS = $(wildcard *.h) $(wildcard */*.h)
 
 $(TARGET):
 	$(CC) $(SOURCES) $(CFLAGS) $(LIBS) -o $@
