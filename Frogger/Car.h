@@ -1,6 +1,6 @@
 #ifndef CAR_H
 #define CAR_H
-
+#include <vector>
 #include "Vec2D.h"
 
 class Terminal;
@@ -21,7 +21,7 @@ private:
     };
 
     MoveDirection _dir;
-    Vec2D _pos;
+    std::vector<Vec2D> _pos;
 };
 
 #endif
